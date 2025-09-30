@@ -9,10 +9,15 @@ msgpack_numpy
 networkx
 numpy>=1.16.1
 pre-commit
-torch>=1.6.0
+torch==1.10.2
 torchvision==0.2.2.post3
 tqdm>=4.0.0
 tensorflow==1.13.1
 tb-nightly
 yacs>=0.1.5
 Opencv-python>=3.3.0
+
+virtualenv==20.16.2
+h5py==2.10.0
+tensorflow-estimator<1.14.0rc0,>=1.13.0
+tensorboard<1.14.0,>=1.13.0
